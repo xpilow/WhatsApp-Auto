@@ -3,7 +3,7 @@ $app_name = $_POST[“app”];
 $sender   = $_POST[“sender”];
 $message  = $_POST[“message”];
 
-if ($app_name == “WhatsApp”) {
+if ($app_name == “WhatsApp Business”) {
   if ($sender == “Bob”) {
      if ($message == “order status”) {
          $reply = array(“reply” => “Hello bob, your order is confirmed.”);
